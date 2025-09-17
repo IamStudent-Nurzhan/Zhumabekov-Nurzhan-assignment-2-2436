@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+p {
+  font-size: 16px;
+  color: darkslategray;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+#main-heading {
+  font-size: 32px;
+  color: rgb(255, 0, 0);
+}
+
+.header {
+  background-color: rgb(238, 255, 0);
+  padding: 10px;
+}
+.main {
+  background-color: rgb(87, 118, 230);
+  padding: 20px;
+}
+.footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.box-model {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: lightblue;
+}
+
+.position {
+  position: relative;
+  height: 150px;
+  background-color: #00ff08;
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+}
+.static {
+  position: static;
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+}
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: lightgreen;
+}
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 60px;
+  height: 60px;
+  background-color: gold;
+}
+
+.px { 
+    font-size: 24px;
+}
+.percent { 
+    font-size: 150%; 
+}
+.em { 
+    font-size: 2em; 
+}
+.rem { 
+    font-size: 2rem; 
+}
+
+.img {
+  display: flex;
+  gap: 20px;
+}
+.img1 img { 
+    width: 25rem; 
+}
+.img2 img { 
+    width: 50%; 
+}
+.img3 img { 
+    width: 25em; 
+}
+.img4 img{
+    width: 50px; 
+}
+.container {
+  margin-top: 20px;
+}
+.left {
+  float: left;
+  width: 45%;
+  height: 100px;
+  background-color: lightcoral;
+}
+.right {
+  float: right;
+  width: 45%;
+  height: 100px;
+  background-color: lightseagreen;
+}
+.clear {
+  clear: both;
+}
