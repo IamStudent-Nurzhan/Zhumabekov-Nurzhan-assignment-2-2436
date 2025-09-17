@@ -1,18 +1,15 @@
 *{
     margin: 0;
 }
-p {
-  font-size: 16px;
-  color: darkslategray;
-}
 
 .highlight {
   background-color: yellow;
-  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 #main-heading {
   font-size: 32px;
   color: rgb(255, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -27,6 +24,7 @@ p {
   background-color: green;
   color: white;
   text-align: center;
+  margin-top: 400px;
   padding: 10px;
 }
 
@@ -112,6 +110,4 @@ p {
   height: 100px;
   background-color: lightseagreen;
 }
-.clear {
-  clear: both;
-}
+
